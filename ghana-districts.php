@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Ghana Districts & Regions
+ * Plugin Name: Ghana Districts & Regions Lite
  * Plugin URI: https://github.com/ernestamart/ghana-districts-plugin
- * Description: Add Ghana region and district dropdowns to any page, post, or Contact Form 7.
+ * Description: Add Ghana region and district dropdowns to any page, post, or Contact Form 7. Free version — shortcodes and CF7 only.
  * Version: 1.1.0
  * Author: Amart Plugin Co.
  * Author URI: https://github.com/ernestamart
@@ -331,6 +331,8 @@ class Ghana_Districts {
             'western-north' => __( 'Western North Region', 'ghana-districts' ),
         ) );
     }
+
+    // -------------------------------------------------------------------------
 
     private function get_districts() {
         return array(
